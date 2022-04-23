@@ -1,0 +1,270 @@
+body
+{
+background: linear-gradient(45deg, black,black, black,hsl(135, 58%, 41%),hsl(0, 0%, 20%),hsl(0, 4%, 10%));
+background-size: 300%;
+animation: animacja 30s; 
+position: relative;
+color: white;
+font-family: 'Bebas Neue', cursive;
+font-size: 20px;
+width: 100%;
+height: 100vh;
+}
+
+@keyframes animacja 
+{ 
+0% 
+    {background-position:0% 50%;}
+50%
+    {background-position: 100% 50%;}
+100%
+    {background-position: 0% 50% ;} 
+}
+
+#container
+{
+width: 1000px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.rectangle
+{
+width:960px ;
+text-align: center;
+}
+.square
+{
+width: 50%;
+float: left;
+}
+
+.square2
+{
+width: 50%;
+float: left;
+}
+
+#logo
+{
+float:left; 
+font-size: 70px;
+width: 400px;
+text-decoration: none;
+color: red;
+}
+
+#zegar
+{
+float:left; 
+width: 400px;
+font-size: 50px;
+color: white;
+margin: 10px 0 0 150px
+}
+
+.tile1
+{
+width: 480px;
+height: 105px;
+margin:8px;
+border-radius: 20px;
+text-align:center;
+font-size: 30px;
+color:hsl(106, 100%, 50%);
+border-style: solid;
+border-color: hsl(106, 100%, 50%);
+border-width: 2px;
+letter-spacing: 3px;
+}
+
+.tile2
+{
+width: 480px;
+height: 105px;
+margin:8px;
+border-radius: 20px;
+text-align:center;
+color: hsl(106, 100%, 40%);
+border-style: solid;
+border-color: hsl(106, 100%, 40%);
+border-width: 2px;
+font-size: 30px;
+letter-spacing: 3px;
+}
+
+.tile3
+{
+width: 480px;
+height: 105px;
+margin:8px;
+border-radius: 20px;
+text-align: center;
+color:hsl(106, 100%, 30%);
+border-style: solid;
+border-color: hsl(106, 100%, 30%);
+border-width: 2px;
+font-size: 30px;
+letter-spacing: 3px;
+}
+
+.tile4
+{
+width: 480px;
+height: 105px;
+margin:8px;
+border-radius: 20px;
+text-align: center;
+color:hsl(106, 100%, 20%);
+border-style: solid;
+border-color:hsl(106, 100%, 20%);
+border-width: 2px;
+font-size: 30px;
+letter-spacing: 3px;
+}
+
+.tile6
+{
+width: 440px;
+height: 260px;
+margin: 8px;
+border-radius: 20px;
+text-align: justify;
+color: white;
+font-size: 28px;
+padding-bottom: 40px;
+padding-left: 25px;
+padding-right: 25px;
+border-style: solid;
+border-color: white;
+border-width: 2px;
+}
+
+.tile7
+{
+width: 230px;
+height:142px;
+margin: 2px;
+margin-left: 8px;
+float: left;
+border-radius: 20px;
+text-align: center;
+color: white;
+border-style: solid;
+border-color:#0e76a8 ;
+border-width: 2px;
+}
+
+.tile8
+{
+width: 230px;
+height:142px;
+margin: 2px;
+margin-left: 20px;
+float: left;
+border-radius: 20px;
+text-align: center;
+color: white;
+border-style: solid;
+border-color:#4668b3 ;
+border-width: 2px;
+}
+
+.tile1:hover
+{
+border-color: white;
+color: white;
+}
+
+.tile2:hover
+{
+border-color:white;
+color: white;
+}
+
+.tile3:hover
+{
+border-color:white;
+color: white;
+}
+
+.tile4:hover
+{
+border-color:white;
+color: white;
+}
+
+.tile7:hover
+{
+border-color: white;
+}
+
+.tile8:hover
+{
+border-color: white;
+}
+
+.tilelink
+{
+color: hsl(106, 100%, 50%);
+text-decoration: none;
+display: block;
+width: 480px;
+height: 142px;
+}
+
+.tilelink2
+{
+color:hsl(106, 100%, 40%);
+text-decoration: none;
+display: block;
+width: 480px;
+height: 142px;
+}
+
+.tilelink3
+{
+color: hsl(106, 100%, 30%);
+text-decoration:none ;
+display: block;
+width: 480px;
+height: 142px;
+}
+
+.tilelink4
+{
+color:hsl(106, 100%, 20%);
+text-decoration: none;
+display: block;
+width: 480px;
+height: 142px;
+}
+
+.inlink
+{
+color:white ;
+text-decoration: none;
+display: block;
+width: 230px;
+height: 142px;
+}
+
+.fblink
+{
+color:white ;
+text-decoration: none;
+display: block;
+width: 230px;
+height: 142px;
+}
+
+.tilelinkhtml5
+{
+color:white ;
+text-decoration: none;
+}
+
+a:hover
+{
+   color:white;
+}
