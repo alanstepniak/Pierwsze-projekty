@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/236d05d35e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="mainHeader">
+        <div class="mainHeaderContent">
+            <h1>Alan Stępniak</h1>
+            <hr>
+            <h2>Front End Developer</h2>
+        </div>
+    </header>
+    <nav id="mainMenu">
+        <ul>
+            <li class="menuItem"><a href="#about">O mnie</a></li>
+            <li class="menuItem"><a href="#technologies">Technologie</a></li>
+            <li class="menuItem"><a href="#contact">Kontakt</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="about" class="about">
+            <div class="container">
+                <header class="sectionHeader">
+                    <h2>O MNIE</h2>
+                    <hr>
+                </header>
+                <img src="img/AS.jpg" alt="about" class="aboutIMG">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, enim mollitia. Facilis blanditiis,
+                    consequuntur aliquam laboriosam dolores temporibus nulla similique itaque quaerat reiciendis ab
+                    reprehenderit magnam magni, ipsa quam quia dolore repellendus, optio voluptate nesciunt mollitia!
+                    Quam, labore neque. Ut saepe neque voluptatum, alias quibusdam ipsa distinctio nihil excepturi
+                    quisquam?</p>
+
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi ducimus pariatur voluptas sequi
+                    maiores ad, nemo, numquam provident sed odio, nostrum excepturi aliquam repellendus? In repellendus
+                    quo delectus repudiandae debitis, consequuntur temporibus reprehenderit explicabo earum, corporis
+                    animi facere sed dolores.</p>
+
+            </div>
+        </section>
+
+        <section id="technologies" class="technologies">
+            <div class="container">
+                <header class="sectionHeader">
+                    <h2>Technologie</h2>
+                    <hr>
+                </header>
+                <div class="logos">
+                    <div class="logo"><i class="fa-brands fa-html5"></i> <p>HTML jest pierwszą technologią z którą miałem do czynienia na swojej drodze do web developmentu. Stanowi on szkielet na którym bazowałem na początku nauki oraz robię to w dalszym ciągu.</p> </div>
+                    <div class="logo"><i class="fa-brands fa-css3"></i>
+                    <p>CSS czyli Cascading Style Sheets odpowiada za wygląd witryn internetowych. Stylowanie od początku sprawiało mi najwiecej przyjemności. Jest to z pewnością umiejętność,którą opanowałem w największym stopniu. Czcionki, grafiki czy kolory to elementy w których się najlepiej czuję.</p></div>
+                    <div class="logo"><i class="fa-brands fa-js"></i>
+                    <p>JavaScript jest językiem powszechnie stosowanym w branży.Dzięki swojej niezaprzeczalnej przydatności znajduje on zastosowanie na każdym kroku w web developmencie. Stale poszerzam wiedzę na temat tego języka i staram się go używać tam gdzie jest potrzebny.</p></div>
+                    <div class="logo"><i class="fa-brands fa-react"></i>
+                    <p>React jako framework JavaScriptu jest dziś bardzo pożądanym narzędziem w rękach Front End Developera. Wielu programistów bazuje na nim na codzień. I ja również utrwalam wiedzę na temat tej technologii oraz poznaję nowe jej zastosowania.</p></div>
+                    <div class="logo"><i class="fa-brands fa-git-alt"></i>
+                    <p>GIT czyli system kontroli wersji stanowi obecnie jedno z najczęściej wykorzystywanych przeze mnie narzędzi przy codziennej pracy. Począkowo był on dla mnie <pierw></pierw>szym kontaktem z terminalem. Obecnie jest on jednym w fundamentalnych narzędzi w toku mojej pracy.</p></div>
+                    <div class="logo"><i class="fa-brands fa-sass"></i>
+                    <p>Preprocesor SASS jest obok CSSa moją ulubioną technologią,która bazując na kaskadowych arkuszach styli rozszerza ich funkcjonaności. Możliwość dodawania mixinów, zmiennych czy plików cząstkowych ułatwia uporządkowanie kodu oraz jego czytelność.</p></div> 
+                    <div class="logo"><i class="fa-brands fa-wordpress"></i>
+                    <p>Wordpress jest systemem zarządzania treścią,którego używam rzadziej niż inne technologie wyżej wymienione.Jest on jednak narzędziem, którego z pewnością będę wykorzystywał jeszcze nieraz w toku codziennej pracy. Stanowi ono bowiem dobre uzupełnienie umiejętności FrontEndowych.</p></div>
+                        <div class="logo"><i class="fa-brands fa-bootstrap"></i><p>Bootstrap stanowi dla mnie narzędzie do przyspieszania pisania kodu oraz tworzenia layoutu. Dzięki gotowym rozwiązaniom oraz łatwości implementacji korzystam z niego z przyjemnością. Moduły z przygotowanymi funkcjonalnościami są przydatnym rozwiązaniem.</p></div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <header class="sectionHeader">
+                    <h2>KONTAKT</h2>
+                    <hr>
+                </header>
+                <form action="">
+                    <input type="text" placeholder="Imię" name="name">
+                    <input type="email" placeholder="Email" name="email">
+                    <textarea placeholder="Wiadomość" name="message"></textarea>
+                    <input type="submit" class="button" value="WYŚLIJ WIADOMOŚĆ">
+                </form>
+                <div class="socialLinks">
+                    <a href="https://www.linkedin.com/in/alan-stępniak-68014a182/" target="_blank" class="socialLink"><i
+                            class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/alanstepniak" target="_blank" class="socialLink"><i
+                            class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="mainFooter">
+        <div class="container">
+            <p>© Alan Stępniak- Front End Developer 2022</p>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,338 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 40px 0;
+}
+
+.sectionHeader {
+    margin-bottom: 75px;
+}
+
+.sectionHeader h2 {
+    color: #333;
+    font-size: 1.9em;
+    text-align: center;
+    font-weight: 400;
+}
+
+.mainHeader {
+    background-image: url(../img/IMG20220419143807.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainHeader .mainHeaderContent {
+    text-align: center;
+    color:white;
+}
+
+.mainHeader .mainHeaderContent h1 {
+    font-size: 6em;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.mainHeader .mainHeaderContent p {
+    font-size: 3em;
+    color: #333;
+    margin: 40px 0;
+}
+
+hr {
+    width: 70px;
+    border: solid 1px #8EC2C0;
+    border-bottom: 0;
+}
+
+span {
+    color: #8EC2C0;
+}
+
+.button {
+    color: #333;
+    border: solid 1px #8EC2C0;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 14px 20px;
+    transition: all 0.3s;
+    display: inline-block;
+    margin: auto;
+    background-color: transparent;
+}
+
+.button:hover {
+    color: white;
+    background-color: #8EC2C0;
+}
+
+#mainMenu {
+    background-color: #757D7D;
+    color: white;
+}
+
+#mainMenu ul {
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
+}
+
+#mainMenu ul .menuItem {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+#mainMenu ul .menuItem a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 14px 20px;
+    display: block;
+    transition: all 0.3s;
+}
+
+#mainMenu ul .menuItem a:hover {
+    background-color: white;
+    color: #8EC2C0;
+}
+
+.aboutIMG {
+    border-radius: 50%;
+    text-align: center;
+    width: 50%;
+}
+
+.about {
+    text-align: center;
+}
+
+.about p {
+    max-width: 700px;
+    color: #777;
+    margin: 40px auto 30px auto;
+    line-height: 1.4;
+}
+
+.portfolio {
+    background-color: #f2f1ed;
+}
+
+.portfolioWrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.portfolioItem {
+    flex-basis: 25%;
+    height: 200px;
+    position: relative;
+}
+
+.portfolioItem img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.portfolioItem h3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 123, 255, 0.8);
+    opacity: 0;
+    margin: 0;
+    text-align: center;
+    line-height: 200px;
+    color: white;
+    font-weight: 300;
+    font-size: 3em;
+    transition: all .3s;
+}
+
+.portfolioItem h3:hover {
+    opacity: 1;
+}
+
+.contact form {
+    max-width: 700px;
+    margin: 40px auto 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.contact input[type="text"],
+.contact input[type="email"] {
+    flex-basis: 48%;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.contact textarea {
+    flex-basis: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    height: 100px;
+}
+
+.contact input[type="submit"] {
+    justify-content: center;
+}
+
+.socialLinks {
+    margin-top: 75px;
+    text-align: center;
+}
+
+.socialLink {
+    font-size: 2.5em;
+    color: #8EC2C0;
+    transition: all .3s;
+    margin: 0 20px;
+}
+
+.socialLink:hover {
+    color: #777;
+}
+
+.mainFooter {
+    text-align: center;
+    background-color: #757D7D;
+    padding: 30px;
+    color: white;
+}
+
+.fa-brands {
+    font-size: 5em;
+    margin:3%;
+}
+
+.fa-html5 {
+    color:#e34c26;
+}
+
+.fa-css3 {
+    color:#264de4;
+}
+
+.fa-js {
+    color:#f0db4f;
+}
+
+.fa-react{
+    color:#61DBFB;
+}
+
+.fa-git-alt {
+    color:#F1502F;
+}
+
+.fa-sass {
+    color:#c69;
+}
+
+.fa-wordpress {
+    color:#21759b;
+}
+
+.fa-bootstrap {
+    color:#563d7c;
+}
+
+.logos{
+    display: flex;
+    flex-direction:column;
+}
+
+.fa-linkedin, .fa-github {
+    font-size: 3em;
+}
+
+.fa-linkedin {
+    color:#0A66C2;
+}
+
+.fa-github {
+    color:#171515;
+}
+
+.fa-linkedin:hover, .fa-github:hover {
+    color:#8EC2C0;
+}
+
+.logo {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+@media (min-width:1200px) {
+    .container {
+        max-width: 1170px;
+    }
+}
+
+@media (max-width:1200px) {
+    .container {
+        max-width: 992px;
+    }
+
+    .portfolioItem {
+        flex-basis: 50%;
+    }
+}
+
+@media (max-width:992px) {
+    .container {
+        max-width: 768px;
+    }
+
+    .portfolioItem {
+        flex-basis: 50%;
+    }
+}
+
+@media (max-width:768px) {
+    .container {
+        max-width: 95%;
+    }
+
+    .portfolioItem {
+        flex-basis: 100%;
+    }
+
+    @media (max-width:480px) {
+        .mainHeaderContent h1 {
+            font-size: 3em;
+        }
+    }
+
+    .aboutIMG {
+        max-height: 200px;
+        max-width: 200px;
+    }
+
+    .contact input[type="text"],
+    .contact input[type="email"] {
+        flex-basis: 100%;
+    }
+}
