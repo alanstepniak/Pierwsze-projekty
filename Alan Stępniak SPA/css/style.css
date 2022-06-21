@@ -177,7 +177,6 @@ span {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-
 }
 
 .contact input[type="text"],
@@ -260,7 +259,8 @@ span {
 
 .logos{
     display: flex;
-    flex-direction:column;
+    justify-content: space-around;
+    
 }
 
 .fa-linkedin, .fa-github {
@@ -279,10 +279,43 @@ span {
     color:#8EC2C0;
 }
 
-.logo {
+.logo i {
     display:flex;
-    flex-direction: row;
+    flex-direction:column;
     align-items: center;
+    transform: rotateY(0);
+    animation: animate 4s linear infinite;
+}
+
+.logo i:hover {
+    cursor:pointer;
+}
+
+.text {
+    display:none;
+}
+
+@keyframes animate {
+    to {
+        transform:rotateY(360deg);
+    }
+}
+
+@keyframes fadeInFromNone {
+    0% {
+        display: none;
+        opacity: 0;
+    }
+
+    1% {
+        display: block;
+        opacity: 0;
+    }
+
+    100% {
+        display: block;
+        opacity: 1;
+    }
 }
 
 @media (min-width:1200px) {
